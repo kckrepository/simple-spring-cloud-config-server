@@ -2,17 +2,22 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ServerConfig" />
+        <module name="ServiceClient" />
+        <module name="ServiceClientEnvDev" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ServerConfig" options="-parameters" />
+      <module name="ServiceClient" options="-parameters" />
+      <module name="ServiceClientEnvDev" options="-parameters" />
     </option>
   </component>
 </project>

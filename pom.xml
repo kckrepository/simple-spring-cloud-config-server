@@ -17,6 +17,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>ServerConfig</module>
+        <module>ServiceClient</module>
+        <module>ServiceClientEnvDev</module>
     </modules>
 
     <properties>
